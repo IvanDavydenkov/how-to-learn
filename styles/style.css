@@ -1,0 +1,251 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  position: relative;
+  background-color: #f2f2f2;
+  /* выше установили ограничения для секции */
+}
+
+.header_content {
+  position: relative;
+  min-width: 100%;
+  height: 756px;
+  display: flex;
+  align-items: center;
+}
+
+.header_link {
+  text-decoration: none;
+}
+
+.header_link::after {
+  content: " \27F6";
+  position: relative;
+  bottom: 2px;
+
+}
+
+.logo_background {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 2;
+}
+
+.header_square {
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
+
+.logo_place_header {
+  max-width: 228px;
+  max-height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header_title {
+  font-size: 102px;
+  font-weight: 600px;
+  line-height: 96px;
+  max-width: 730px;
+  z-index: 3;
+  margin: 0;
+  margin-left: 64px;
+  padding: 0;
+}
+
+.header_txt {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+
+/* section description */
+
+.description {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.description_content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  min-width: 784px;
+}
+
+.description_title {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.discription_txt {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.discription_txt-style__bold {
+  font-weight: 600;
+}
+
+/* section Digits */
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digits_title-block {
+  text-align: center;
+}
+
+.digits_section-title {
+  line-height: 1.15px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.digits_section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.digits_table_heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.digits_table_text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.digits_table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  justify-content: space-between;
+}
+
+.digits_table_cell {
+  width: 250px;
+  margin-top: 60px;
+
+}
+
+/* section feyman */
+.feynman {
+  box-sizing: border-box;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 867px;
+  height: 890px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feyman_title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  max-width: 648px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.feyman_subtitle {
+  text-align: center;
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feyman_link {
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feyman_link::after {
+  content: " \27F6";
+  position: relative;
+  bottom: 2px;
+}
+
+
+/* section kaufman */
+
+.kaufman {
+  display: flex;
+}
+
+section {
+  border: 1px solid #1f1f1f
+}
