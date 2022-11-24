@@ -10,6 +10,15 @@
 
 }
 
+.section__border {
+  border: 1px solid #1f1f1f;
+}
+
+.section__border_line {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -107,13 +116,13 @@
   display: flex;
   justify-content: center;
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .description_content {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
   min-width: 784px;
 }
 
@@ -151,9 +160,10 @@
 }
 
 .digits_section-title {
-  line-height: 1.15px;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  margin-top: 0;
 }
 
 .digits_section-subtitle {
@@ -199,8 +209,12 @@
   background-position: left bottom;
   background-size: 867px;
   height: 890px;
-  display: flex;
   position: relative;
+
+}
+
+.feyman_content {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -243,9 +257,149 @@
 /* section kaufman */
 
 .kaufman {
+  padding: 90px 0;
+  overflow: hidden;
   display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #1f1f1f;
 }
 
-section {
-  border: 1px solid #1f1f1f
+.kaufman_content {
+  z-index: 1;
+  width: 100%;
+}
+
+.kaufman_title-block {
+  text-align: center;
+}
+
+.kaufman_title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.kaufman_subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.kaufman_card-number {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin-top: 0;
+}
+
+.kaufman_card_txt {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.kaufman_card-box {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.kaufman_card {
+  margin-top: 80px;
+  width: 200px
+}
+
+.kaufman_background-img {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: -0;
+  right: -210px;
+  z-index: 0;
+}
+
+/* section footer */
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  height: 350px;
+  color: white;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.footer_left-column {
+  margin-right: 711px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 228px;
+  height: 32px;
+}
+
+.footer_author {
+  margin-top: auto;
+  margin-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer_middle-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_column-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.footer_column-heading {
+  line-height: 30px;
+  font-style: 18px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer_column-links {
+  margin-top: 20px;
+}
+
+.footer_column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+.footer_right-column .footer_column-link {
+  font-weight: normal;
 }

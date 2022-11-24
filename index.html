@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <div class="page">
-        <header class="header">
+    <div class="page section__border">
+        <header class="header section__border_line">
             <div class="header_content">
                 <img src="./images/logo_place_header.svg" class="logo_place_header" alt="Яндекс Практикум">
                 <img src="./images/two_again.png" class="logo_background" alt="Лого">
@@ -29,7 +29,7 @@
         </header>
         <main class="content">
             <section class="description">
-                <div class="description_content">
+                <div class="description_content section__border_line">
                     <div class="description_title"><span>Главные проблемы в обучении</span></div>
                     <!-- //TODO: Надо пофиксить, тут должен быть заголовок, а не спан -->
                     <div class="discription_txt">
@@ -53,7 +53,7 @@
                 </div>
             </section>
 
-            <section class="digits">
+            <section class="digits section__border_line">
                 <div class="digits_title-block">
                     <h2 class="digits_section-title">Цифры и факты</h2>
                     <span class="digits_section-subtitle">Про учёбу и мозг</span>
@@ -99,16 +99,95 @@
                 </div>
             </section>
 
-            <section class="feynman">
-                <h2 class="feyman_title">Метод Феймана</h2>
-                <p class="feyman_subtitle">Выучить и не забыть.</p>
-                <a href="#" class="feyman_link">Подробнее</a>
+            <section class="feynman section__border_line">
+                <div class="feyman_content">
+                    <h2 class="feyman_title">Метод Феймана</h2>
+                    <p class="feyman_subtitle">Выучить и не забыть.</p>
+                    <a href="#" class="feyman_link">Подробнее</a>
+                </div>
             </section>
 
-            <section class="kaufman">
+            <section class="kaufman section__border_line">
+                <div class="kaufman_content section__border_line">
+                    <div class="kaufman_title-block">
+                        <h2 class="kaufman_title">Принципы обучения</h2>
+                        <p class="kaufman_subtitle">от Джоша Кауфмана</p>
+
+                    </div>
+                    <div class="kaufman_card-box">
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">1</p>
+                            <p class="kaufman_card_txt">Выберите привлекательный проект.</p>
+                        </div>
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">2</p>
+                            <p class="kaufman_card_txt">Сосредоточьтесь на каком-то одном навыке.</p>
+                        </div>
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">3</p>
+                            <p class="kaufman_card_txt">Определите целевой уровень мастерства.</p>
+                        </div>
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">4</p>
+                            <p class="kaufman_card_txt">Разбейте навык на элементы.</p>
+                        </div>
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">5</p>
+                            <p class="kaufman_card_txt">Приготовьте всё необходимое для занятий.</p>
+                        </div>
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">6</p>
+                            <p class="kaufman_card_txt">Устраните препятствия для занятий.</p>
+                        </div>
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">7</p>
+                            <p class="kaufman_card_txt">Выделите специальное время для занятий.</p>
+                        </div>
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">8</p>
+                            <p class="kaufman_card_txt">Создайте быстрые петли обратной связи.</p>
+                        </div>
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">9</p>
+                            <p class="kaufman_card_txt">Занимайтесь по расписанию, короткими интенсивными
+                                интервалами.
+                            </p>
+                        </div>
+                        <div class="kaufman_card">
+                            <p class="kaufman_card-number">10</p>
+                            <p class="kaufman_card_txt">Уделяйте внимание количеству и скорости.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/kaufman-triangle.svg" alt="triangle" class="kaufman_background-img">
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer section__border_line">
+            <div class="footer-columns section__border_line">
+                <div class="footer_left-column">
+                    <img src="./images/logo_place_footer.svg" alt="footer-logo" class="footer_logo">
+                    <p class="footer_author">&copy; Виктор Абанькин</p>
+                </div>
+                <div class="footer_middle-column">
+                    <h3 class="footer_column-heading">О Практикуме</h3>
+                    <div class="footer_column-links">
+                        <a href="#" class="footer_column-link">Главная</a>
+                        <a href="#" class="footer_column-link">Концепция</a>
+                        <a href="#" class="footer_column-link">Наставники</a>
+                    </div>
+                </div>
+                <div class="footer_right-column">
+                    <h3 class="footer_column-heading">Соцсети</h3>
+                    <div class="footer_column-links">
+                        <a href="#" class="footer_column-link"><img src="./images/YouTube.svg"
+                                class="footer_social-icon" alt="YouTube"> YouTube</a>
+                        <a href="#" class="footer_column-link"><img src="./images/vk.svg" class="footer_social-icon"
+                                alt="Vkontakte"> ВКонтакте</a>
+                        <a href="#" class="footer_column-link"><img src="./images/tiktok.svg" class="footer_social-icon"
+                                alt="TikTok"> TikTok</a>
+                    </div>
+                </div>
+            </div>
 
         </footer>
     </div>
