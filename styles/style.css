@@ -223,6 +223,9 @@
 }
 
 .kaufman {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -232,11 +235,6 @@
   margin-top: 0;
 }
 
-.kaufman {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
 .table__cell_theme_dark {
   width: 200px;
