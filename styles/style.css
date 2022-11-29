@@ -65,7 +65,6 @@
 .header__link::after {
   content: " \27F6";
   position: relative;
-  bottom: 2px;
 }
 
 .header__main-illustration {
