@@ -1,0 +1,79 @@
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+  align-items: center;
+  overflow: hidden;
+}
+.header__title {
+  font-size: 102px;
+  font-weight: 600px;
+  line-height: 96px;
+  width: 730px;
+  z-index: 2;
+  margin-left: 64px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 228px;
+  min-height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__subtitle {
+  width: 388px;
+  margin: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+  transition: opacity 0.4s ease;
+}
+
+.header__link:visited {
+  color: #2f80ed;
+}
+
+.header__link::after {
+  content: " \27F6";
+}
+.header__link:hover {
+  opacity: 0.5;
+}
+
+.header__main-illustration {
+  width: 765px;
+  min-height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__square-pic {
+  min-height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 0;
+}
