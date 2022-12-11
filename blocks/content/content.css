@@ -3,36 +3,6 @@
 .description {
   margin-top: 100px;
 }
-.two-columns {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.two-columns__brief {
-  color: #2f80ed;
-  width: 175px;
-  margin: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-.two-columns__main-text {
-  min-width: 784px;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin: 0;
-}
-
-.two-columns__paragraph {
-  margin: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
 
 /* section techniques */
 .techniques {
@@ -113,7 +83,7 @@
   top: -60px;
 }
 
-.feyman__title {
+.feynman__title {
   max-width: 648px;
   text-align: center;
   margin-bottom: 0;
@@ -123,7 +93,7 @@
   font-weight: 600;
 }
 
-.feyman__subtitle {
+.feynman__subtitle {
   margin: 0;
   text-align: center;
   margin-top: 70px;
@@ -132,7 +102,7 @@
   font-weight: normal;
 }
 
-.feyman__link {
+.feynman__link {
   margin: 0;
   text-decoration: none;
   position: absolute;
@@ -144,10 +114,10 @@
   font-weight: normal;
   transition: opacity 0.4s ease;
 }
-.feyman__link:hover {
+.feynman__link:hover {
   opacity: 0.5;
 }
-.feyman__link::after {
+.feynman__link::after {
   content: " \27F6";
   position: relative;
   bottom: 2px;
